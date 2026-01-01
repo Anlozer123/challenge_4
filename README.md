@@ -1,3 +1,17 @@
+# 🚩 Challenge 4: Build a DEX ⚖️
+
+Dự án này là giải pháp cho Challenge 4: Build a DEX của SpeedRunEthereum. Nó bao gồm một sàn giao dịch phi tập trung (DEX) đơn giản cho phép swap giữa ETH và token Balloons ($BAL), cung cấp thanh khoản, và tính phí giao dịch 0.3%.
+
+## 🌟 Tính năng
+- **Init:** Khởi tạo thanh khoản ban đầu cho sàn.
+- **Price:** Tính toán giá token dựa trên công thức Constant Product Formula (x * y = k).
+- **Swap:** Đổi ETH sang Token và ngược lại.
+- **Liquidity:** Nạp (Deposit) và Rút (Withdraw) thanh khoản để nhận phí giao dịch.
+
+## 🛠 Cài đặt và Chạy dự án
+
+Yêu cầu: [Node.js](https://nodejs.org/) (>= v20.18.3) và [Yarn](https://yarnpkg.com/).
+
 ## Bước 1: Cài đặt dự án
 
 1. Clone dự án về máy tính của bạn:
